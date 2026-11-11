@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+python/.venv/
+python/.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build outputs
+.next/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
+*.pem
+.cache/
